@@ -17,5 +17,29 @@ We are going to elaborate some questions before opening any excel file or sqldat
 4)Do collaborative users stay longer?
 5)Which features are most popular?
 
-This is exactly how analysts begin: explore first, make assumptions later.
+Understanding an event-based database
+Product Analytics often relies on event data.
 
+An event is a recorded action performed by a user, such as:
+- Visiting a page
+- Clicking a button
+- Viewing a product
+- Adding an item to a cart
+- Completing a purchase
+Each row in an event table represents a recorded event.
+
+<b>The dataset we'll use</b>
+Google Analytics 4 — Ecommerce Demo
+Public dataset hosted in Google BigQuery
+
+We'll use the dataset: bigquery-public-data.ga4_obfuscated_sample_ecommerce
+
+It contains historical ecommerce event data, including user activity, product interactions and purchases.
+
+Why we're using it
+- It's an existing dataset, not fabricated data.
+- It contains real recorded event patterns.
+- It lets us practice SQL on a large dataset.
+- It helps us learn product behavior and conversion analysis.
+
+  
